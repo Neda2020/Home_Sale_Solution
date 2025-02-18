@@ -32,10 +32,15 @@ Create a temporary table for SQL queries.
 Cache the dataset and re-run queries to compare execution time.
 Partition by date_built and save data in Parquet format.
 Compare query performance between cached, uncached, and Parquet-based queries.
+
 📊 Performance Comparison
+
 Query Type	Execution Time (seconds)
+
 Uncached Query	⏳ 0.2900846004486084
+
 Cached Query	⚡ 0.634345293045044 seconds
+
 Parquet Query	🚀 0.6004045009613037 seconds
 
 
