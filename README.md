@@ -8,6 +8,7 @@
 This project analyzes home sales data using PySpark to answer key business questions related to real estate pricing, trends, and performance improvements using caching and Parquet optimization.
 
 🔹 Data Source: AWS S3 bucket - home_sales_revised.csv
+
 🔹 Tools Used:
 Google Colab (for cloud-based execution)
 PySpark (for Big Data processing)
@@ -21,11 +22,11 @@ Read home_sales_revised.csv from AWS S3 into a PySpark DataFrame.
 Create a temporary table for SQL queries.
 
 2️⃣ SQL Analysis on Home Sales Data
-
 🏠 Average home price for 4-bedroom homes per year
 🏡 Average price of homes with 3 beds & 3 baths per year built
 📏 Average price for homes (3 bed, 3 bath, 2 floors, ≥2,000 sqft) per year built
 🌟 Average price per "view" rating (≥$350,000), with runtime measurement
+
 3️⃣ Performance Optimization
 
 Cache the dataset and re-run queries to compare execution time.
@@ -33,10 +34,10 @@ Partition by date_built and save data in Parquet format.
 Compare query performance between cached, uncached, and Parquet-based queries.
 📊 Performance Comparison
 Query Type	Execution Time (seconds)
-Uncached Query	⏳ XX.XX
-Cached Query	⚡ XX.XX
-Parquet Query	🚀 XX.XX
-(Replace XX.XX with your actual runtime values.)
+Uncached Query	⏳ 0.2900846004486084
+Cached Query	⚡ 0.634345293045044 seconds
+Parquet Query	🚀 0.6004045009613037 seconds
+
 
 🛠 How to Run the Notebook
 1️⃣ Open the Google Colab Notebook.
@@ -61,9 +62,10 @@ Edit
 🎯 Conclusion
 This project demonstrates how PySpark SQL can process large datasets efficiently and improve performance with caching & Parquet optimizations. 🚀
 
-🤝 Contributing
-Feel free to fork this repository and improve the analysis! PRs are welcome. 😊
+
 
 🔗 Author: Neda Jamal
+
 📧 Contact: neda.jamal@yahoo.com - LinkedIn: linkedin.com/in/nedajamal
+
 📢 Star ⭐ this repository if you found it helpful! 🌟
