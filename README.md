@@ -1,4 +1,4 @@
-# Home_Sale_Solution
+# Home_Sales_Solution
 
 🏡 Home Sales Analysis - PySpark & Colab
 📌 Project Name: Home Sales Analysis using PySpark in Google Colab
