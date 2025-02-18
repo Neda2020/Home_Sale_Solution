@@ -19,6 +19,7 @@ SQL Queries (for data analysis)
 1️⃣ Data Import & Processing
 Read home_sales_revised.csv from AWS S3 into a PySpark DataFrame.
 Create a temporary table for SQL queries.
+
 2️⃣ SQL Analysis on Home Sales Data
 
 🏠 Average home price for 4-bedroom homes per year
