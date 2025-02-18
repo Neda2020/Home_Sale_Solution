@@ -15,8 +15,8 @@ Parquet Format (for optimized storage)
 SQL Queries (for data analysis)
 
 📌 Key Objectives & Steps
-1️⃣ Data Import & Processing
 
+1️⃣ Data Import & Processing
 Read home_sales_revised.csv from AWS S3 into a PySpark DataFrame.
 Create a temporary table for SQL queries.
 2️⃣ SQL Analysis on Home Sales Data
